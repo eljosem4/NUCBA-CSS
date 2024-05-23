@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranga:wght@400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: whitesmoke;
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header-barra{
+    background-color: #0A0A0A; 
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    height: 7.5vh;
+    padding: 1rem 2rem;
+    top: 0;
+    left: 0;
+    width: 100vw;
+   
+}
+
+#header-barra picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-barra nav{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+#header-barra nav a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+main{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+}
+#section-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+#section-principal p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section-principal picture{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#section-principal img{
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+    width: auto;
+    height: auto;
+    padding: 1rem 2rem;
+    border: none;
+}
+
+
+
+
+
