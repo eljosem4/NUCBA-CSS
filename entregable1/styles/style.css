@@ -12,7 +12,7 @@ main{
     align-items: center;
 }
 body{
-    background-color: whitesmoke;
+    background-color: rgb(10, 10, 10);
     font-family: "Ubuntu", sans-serif;
     display: flex;
     flex-direction: column;
@@ -20,7 +20,7 @@ body{
 }
 
 #header-barra{
-    background-color: #0A0A0A; 
+    background-color: rgb(6, 6, 6); 
     gap: 1rem;
     display: flex;
     align-items: center;
@@ -29,14 +29,14 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    
-   
+    box-shadow: 1rem .7rem .7rem rgb(0, 0, 0);
 }
 
 #header-barra picture{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 #header-barra nav{
@@ -65,6 +65,12 @@ body{
     border: none;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 3rem;
+    background: linear-gradient(85deg, rgba(33,255,0,1) 20%, rgba(255,0,0,1) 47%, rgba(0,16,255,1) 96%);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
 }
 
 #section-principal p{
@@ -72,6 +78,12 @@ body{
     justify-content: center;
     align-items: flex-end;
     flex-direction: row;
+    font-size: 2rem;
+    background: linear-gradient(85deg, rgba(33,255,0,1) 20%, rgba(255,0,0,1) 47%, rgba(0,16,255,1) 96%);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+    
+    
 }
 
 
@@ -79,6 +91,7 @@ body{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+    width: calc(100% - 1rem);
 }
 
 
@@ -87,13 +100,136 @@ body{
 /* Seccion Secundaria */
 
 #section-secundaria{
-        display: flex;
-        flex-direction: row;
-        color: black;
-        padding: 4rem 8rem;
+    display: flex;
+    flex-direction: row;
+    color: black;
+    padding: 4rem 8rem;
+}
+
+#section-secundaria h2{
+    display: flex;
+    padding: 2rem 4rem;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 3rem;
+    background: linear-gradient(85deg, rgba(33,255,0,1) 20%, rgba(255,0,0,1) 47%, rgba(0,16,255,1) 96%);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+    
+
 }
 
 
+#section-secundaria p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 2rem;
+    background: linear-gradient(85deg, rgba(33,255,0,1) 20%, rgba(255,0,0,1) 47%, rgba(0,16,255,1) 96%);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+}
+
+/* Tipos de CUbos */
+
+#cubos{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    padding: 1rem 2rem;
+
+}
+
+#cubos h3{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: calc(100% - 5rem);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    background: linear-gradient(85deg, rgba(33,255,0,1) 20%, rgba(255,0,0,1) 47%, rgba(0,16,255,1) 96%);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+}
+    
+#cubos picture{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
 
 
+#cubos img{
+    display: flex;
+    width: 10rem;
+    padding: 1rem 2rem;
+    
+}
+/* Header Final */
+#header-final{
+    background-color: #000000; 
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    height: calc(100% - 1rem);
+    padding: 1rem 2rem;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#header-final nav{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: .05rem;
+}
+#header-final li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column-reverse;
+}
+#header-final nav p{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: .05rem;
+    padding-right: 1rem;
+    text-transform: uppercase;
+}
+#header-final nav a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding-right: 1rem;
+    text-transform: uppercase;
+}
+
+/* Distinas Resoluciones */
+@media (max-width: 1200px){
+    
+}
+
+@media (max-width: 992px){
+
+}
+@media (max-width: 768px){
+    
+}
+
+@media (max-width:576px){
+
+}
+   
 
